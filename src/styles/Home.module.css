@@ -1,0 +1,106 @@
+.container{
+
+  background-color: #0f0f0f;
+  width: 100%;
+  height: calc(100vh - 76px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero{
+
+  max-width: 480px;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+
+}
+
+.secPart{
+
+  width: fit-content;
+}
+
+.title{
+
+  color: #fff;
+  text-align: center;
+  margin: 28px;
+  line-height: 150%;
+}
+
+.buttonSection{
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 12%;
+
+}
+
+.postsButton{
+
+  width: 252.94px;
+  height: 62.85px;
+  border: solid 1px black;
+  border-radius: 12.41px;
+  color: black;
+  cursor: pointer;
+}
+
+.comentsButton{
+
+  width: 252.94px;
+  height: 62.85px;
+  border-radius: 12.41px;
+  border: solid 1px black;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px){
+
+  .hero{
+
+    max-width: 80%;
+  }
+
+  .title{
+
+    font-size: 24px;
+  }
+
+  .secPart{
+
+    width: 100%;
+
+  }
+
+  .buttonSection{
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .buttonSection Button{
+
+    width: 80%;
+    margin-top: 1em;
+  }
+  
+}
+
+

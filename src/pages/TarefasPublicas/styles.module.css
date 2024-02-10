@@ -1,0 +1,24 @@
+.Container{
+
+    width: 100%;
+    height: calc(100vh - 76px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Container h1{
+
+    margin-top: 1em;
+    
+}
+
+.MainContainer{
+
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 18px;
+    margin-top: 2em;
+
+}
+

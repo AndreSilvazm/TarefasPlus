@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Oswald:wght@200&family=Playfair+Display&family=Poiret+One&family=Roboto:wght@100;500&family=Rouge+Script&family=Sacramento&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+
+  font-family: 'Roboto', sans-serif;
+}
+
+
+

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Oswald:wght@200&family=Playfair+Display&family=Poiret+One&family=Roboto:wght@100;500&family=Rouge+Script&family=Sacramento&display=swap');
+
+
+.header{
+
+    width: 100%;
+    height: 76px;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+
+    padding: 0 18px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content a{
+
+    text-decoration: none;
+   
+}
+
+.logo{
+
+    color: #fff;
+    font-size: 32px;
+}
+
+.logo span{
+
+    color: #ea3140;
+    padding-left: 2px;
+}
+
+.loginButton{
+
+    background-color: transparent;
+    width: 189px;
+    height: 48px;
+    border-radius: 999px;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+
+    background-color: #fff;
+    color: #0f0f0f;
+    transition: all 1s;
+    transform: scale(1.08);
+
+}
+
+.SingOutButton{
+
+    background-color: transparent;
+    width: 189px;
+    height: 48px;
+    border-radius: 999px;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.SingOutButton:hover{
+
+    background-color: #ea3140;
+    color: white;
+    border: solid 1px #0f0f0f;
+    transform: scale(1.08);
+    transition: all 1s ;
+}
+
+.nav{
+
+    display: flex;
+    align-items: center;
+}
+.link{
+
+    background-color: #f1f1f1;
+    color: #0f0f0f;
+    padding: 4px 14px;
+    border-radius: 4px;
+    margin: 0 14px;
+}
